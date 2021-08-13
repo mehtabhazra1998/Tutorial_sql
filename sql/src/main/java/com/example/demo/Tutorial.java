@@ -12,10 +12,10 @@ public class Tutorial {
     @Column(name = "title")
     private String title;
 
-    @Column(name = "description")
+    @Column(name = "description",required=false)
     private String description;
 
-    @Column(name = "published")
+    @Column(name = "published",required=false)
     private boolean published;
 
     public Tutorial() {
